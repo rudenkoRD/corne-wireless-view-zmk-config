@@ -20,10 +20,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &kp TAB  &kp Q  &kp W     &kp E  &kp R           &kp T                         &kp Y          &kp U      &kp I    &kp O     &kp P            &kp ESCAPE
-&kp LCTRL  &kp A  &kp S     &kp D  &kp F           &kp G                         &kp H          &kp J      &kp K    &kp L  &kp SEMI  &mt LS(LC(LALT)) SQT
-&kp LSHFT  &kp Z  &kp X     &kp C  &kp V           &kp B                         &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-                         &kp LGUI  &mo 1  &mt LALT ENTER    &mt LS(LA(LC(LGUI))) SPACE  &kp BACKSPACE      &mo 2
+  &kp TAB  &kp Q  &kp W     &kp E  &kp R           &kp T             &kp Y          &kp U      &kp I    &kp O     &kp P       &kp ESCAPE
+&kp LCTRL  &kp A  &kp S     &kp D  &kp F           &kp G             &kp H          &kp J      &kp K    &kp L  &kp SEMI         &kp APOS
+&kp LSHFT  &kp Z  &kp X     &kp C  &kp V           &kp B             &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                         &kp LGUI  &mo 1  &mt LALT ENTER    &mt LGUI SPACE  &kp BACKSPACE      &mo 2
             >;
         };
 
@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp TAB      &kp EXCL        &kp AT      &kp HASH      &kp DLLR     &kp PRCNT                     &kp CARET       &kp AMPS  &kp KP_MULTIPLY  &kp LPAR           &kp RPAR    &kp BACKSLASH
-&kp LCTRL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                     &kp MINUS      &kp EQUAL        &kp GRAVE  &kp LBKT  &kp RIGHT_BRACKET         &kp PIPE
-&kp LSHFT  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                     &kp UNDER       &kp PLUS        &kp TILDE  &kp LBRC           &kp RBRC  &kp RIGHT_SHIFT
-                                           &kp LGUI        &trans  &mt LALT RET    &mt LS(LA(LC(LGUI))) SPACE  &kp BACKSPACE           &trans
+  &kp TAB      &kp EXCL        &kp AT      &kp HASH      &kp DLLR     &kp PRCNT         &kp CARET       &kp AMPS  &kp KP_MULTIPLY  &kp LPAR           &kp RPAR    &kp BACKSLASH
+&kp LCTRL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5         &kp MINUS      &kp EQUAL        &kp GRAVE  &kp LBKT  &kp RIGHT_BRACKET         &kp PIPE
+&kp LSHFT  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0         &kp UNDER       &kp PLUS        &kp TILDE  &kp LBRC           &kp RBRC  &kp RIGHT_SHIFT
+                                           &kp LGUI        &trans  &mt LALT RET    &mt LGUI SPACE  &kp BACKSPACE           &trans
             >;
         };
 
